@@ -57,7 +57,7 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) != 3:
-        print("Usage: python steam_reviews_module.py <appid> <num_reviews_to_retrieve>")
+        print("Usage: python steam_review_scraper.py <appid> <num_reviews_to_retrieve>")
     else:
         appid = sys.argv[1]
         num_reviews_to_retrieve = int(sys.argv[2])
